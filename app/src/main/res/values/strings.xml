@@ -8,7 +8,7 @@
     <string name="bluetooth_condition">✔ Bluetooth connected</string>
     <string name="temperature_condition">✔ Temperature in acceptable range</string>
     <string name="success_image_description">Success icon indicating all conditions were met</string>
-    <string name="success_subtitle">All required connections were successfully completed!</string>
+    <string name="success_subtitle">All required successfully completed!</string>
     <string name="success_explanation">Here are the conditions you met successfully:</string>
     <string name="success_icon_description">Success icon indicating completion</string>
 </resources>
