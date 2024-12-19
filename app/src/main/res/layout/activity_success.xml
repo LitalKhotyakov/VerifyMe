@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@android:color/white"
+    android:gravity="center_horizontal">
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/successTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/success_title"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/holo_blue_dark"
+        android:layout_marginTop="80dp" />
+
+    <!-- Subtitle -->
+    <TextView
+        android:id="@+id/successSubtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/success_subtitle"
+        android:textSize="18sp"
+        android:textColor="@android:color/holo_blue_light"
+        android:layout_marginTop="20dp"
+        android:gravity="center" />
+
+
+    <!-- Explanation -->
+    <TextView
+        android:id="@+id/successExplanation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/success_explanation"
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="30dp" />
+
+    <!-- Conditions List -->
+    <LinearLayout
+        android:id="@+id/conditionsList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/battery_condition"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"
+            android:layout_marginBottom="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/wifi_condition"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"
+            android:layout_marginBottom="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/light_condition"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"
+            android:layout_marginBottom="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/bluetooth_condition"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"
+            android:layout_marginBottom="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/temperature_condition"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"
+            android:layout_marginBottom="10dp" />
+
+    </LinearLayout>
+
+</LinearLayout>
