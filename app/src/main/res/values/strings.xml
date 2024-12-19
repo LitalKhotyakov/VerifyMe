@@ -11,4 +11,5 @@
     <string name="success_subtitle">All required successfully completed!</string>
     <string name="success_explanation">Here are the conditions you met successfully:</string>
     <string name="success_icon_description">Success icon indicating completion</string>
+    <string name="star_description">Star icon indicating condition status</string>
 </resources>
