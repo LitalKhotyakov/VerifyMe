@@ -12,7 +12,7 @@ The **VerifyMe** app ensures that users can log in only when certain device cond
 - **📶 Wi-Fi Connectivity:** Verifies the device is connected to a Wi-Fi network.
 - **💡 Ambient Light:** Checks the ambient light level to ensure it matches the set condition.
 - **📡 Bluetooth Connection:** Confirms a Bluetooth device is connected.
-- **🌡️ Temperature Range:** Retrieves the external temperature and validates it within a specified range.
+- **🌡️ Temperature Range:** Retrieves the external temperature by making an API call to a weather service and validates the temperature within a specified range.
 
 ## How It Works
 
